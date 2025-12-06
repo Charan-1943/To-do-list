@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+    <h2>To-Do List</h2>
+
+    <div class="input-row">
+        <input id="taskInput" type="text" placeholder="Add a task...">
+        <button onclick="addTask()">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <!-- Sound played when completing a task -->
+    <audio id="ding" src="ding.wav" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
